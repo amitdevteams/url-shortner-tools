@@ -1,0 +1,403 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+.nav{
+  padding: 0.5rem 1rem;
+  background:white;
+  border-bottom: 1px solid  rgb(245, 244, 244);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  font-size: 2rem;
+  color: rgb(182, 34, 34);
+}
+#convertBtn,#upload-msg,#download{
+  border: none;
+  outline: none;
+  background: rgb(89, 150, 248);
+  color: white;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  margin-right: 2rem;
+}
+#download,#convertBtn{
+  /* display: none; */
+}
+
+.input-page{
+  position: relative;
+  top: 0;
+}
+.add-more-files{
+  width: 50vw;
+  border-radius: 0.3rem;
+  padding: 3rem;
+  margin:5rem auto;
+  text-align: center;
+  background: rgba(230, 230, 250, 0.13);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.inp-container{
+  cursor: pointer;
+  position: relative;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(124, 124, 145, 0.1) 0px 16px 48px;
+  height: 15rem;
+  background: rgba(154, 127, 228, 0.068);
+  width: 15rem;
+  border-radius: 50%;
+  border: 1px dashed rgb(195, 193, 193);
+  margin: auto;
+  border-width: 0.15rem;
+}
+#upload-file{
+  opacity: 0;
+  display: block;
+  height: 16rem;
+  width: 100%;
+  position: absolute;
+  cursor: pointer;
+}
+.img-icon{
+  color:  rgba(128, 144, 238, 0.596);
+}
+#custom-file{
+  color: rgb(96, 102, 155);
+  position: relative;
+  top: 0.5rem;
+  padding: 0.5rem 0.8rem;
+  font-size: 1.1rem;
+  border-radius: 0.2rem;
+  font-weight: 600;
+}
+
+span{
+  font-size: 1.45rem;
+}
+.drop{
+  margin-top: 3rem;
+  font-size: 1rem;
+  color: rgb(108, 107, 175);
+}
+
+.pdf-page{
+  z-index:-1;
+  min-height: 90%;
+  width:100%;
+  display: none;
+  overflow: hidden;
+}
+.create-pdf{
+  position: relative;
+  padding: 1rem;
+  margin: auto;
+}
+.file-item{
+  padding: 0 1rem;
+  background: none;
+  text-align: center;
+  position: relative;
+  width: 10rem;
+  height: 16rem; 
+  text-align: center;
+  margin: 1rem;
+  display: inline-block;
+  transition: 0.3s all ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.modify button{
+  padding: 0.3rem;
+  font-size: 1rem;
+  color: rgb(250, 64, 64);
+  border-radius: 50%;
+}
+.img-container{   
+  width: 8.5rem;
+  margin: auto;
+  height: 11rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#img{
+  position: relative;
+  max-width: 9rem;
+  max-height: 11rem;
+  background: white;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 0.1rem solid rgb(223, 222, 222);
+}
+.file-item button{
+  margin: 0 0.2rem;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  transition: 0.3s all ease-in-out;
+  opacity: 0;
+  padding: 0.3rem 0.5rem;
+
+}
+.file-item button:hover{
+  background: rgb(224, 248, 251);
+}
+.file-item:hover button{
+  opacity: 1;
+}
+.delete{
+  pointer-events: none;
+}
+#img-name{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 8.5rem;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.add-more-file{
+    padding: 0 1rem;
+    background: none;
+    text-align: center;
+    position: relative;
+    margin: 0.5rem;
+    display: inline-block;
+    transition: 0.3s all ease-in-out;   
+    width: 10rem;
+    height: 16rem; 
+    vertical-align: top;
+}
+ .inp-cont{
+  display: flex;
+  flex-direction: column;
+  flex-flow: column-reverse;
+  border-radius: 50%;
+  position: relative;
+  text-align: center;
+  border: none;
+  background: rgb(241, 246, 246); 
+  width: 9rem;
+  height: 9rem;
+  margin: 3rem auto;
+}
+#inp{
+  opacity: 0;
+  display: block;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.create-pdf .add-more-file p{
+  position: relative;
+  top: -3.5rem;
+}
+
+/* wizbrand css */
+#main {
+  text-align: center;
+  /* background: url('amit/header.png') repeat; */
+  /* background-image: url('amit/header.png'); */
+  min-height: 535px;
+  transition: max-height 1.5s ease-out, min-height 1.5s ease-out;
+  max-height: inherit;
+}
+
+
+#workplace {
+  position: relative;
+  min-height: 470px;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #fff;
+  display: block;
+}
+
+#main p {
+  font-size: 20px;
+  font-weight: 200;
+  color: #fff;
+}
+
+#poweredByTitle {
+  font-weight: 200 !important;
+  font-size: 14px !important;
+}
+
+#UploadFile {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.filedrop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  position: relative;
+  width: 65%;
+  min-height: 113px;
+  border: 3px dashed #6dcff6;
+  padding: 30px 100px 30px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 50px -20px #333;
+  box-sizing: border-box;
+  background: #fff;
+  color: #04241c;
+}
+
+.filedrop label {
+  font-size: 22px;
+  font-weight: 200;
+  box-sizing: content-box;
+  color: #04241c;
+}
+
+.filedrop label.filedrop-hint {
+  color: #394743;
+  font-size: 12px;
+  text-decoration: none !important;
+}
+
+.filedrop label {
+  font-size: 22px;
+  font-weight: 200;
+  box-sizing: content-box;
+  color: #04241c;
+}
+
+.mt-1 {
+  margin-top: 0.25rem !important;
+}
+
+#workplace h1,
+#workplace .h1 {
+
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.filename {
+  background: #e0f4d3;
+  color: #7f8b77;
+  padding: 3px 15px;
+  border-radius: 6px;
+  margin-top: 0px;
+  display: inline-block;
+  min-width: 300px;
+}
+
+.filedrop>.fileupload>.fileRemoveLink {
+  color: rgba(24, 84, 128, .6);
+}
+
+.collapse ul.navbar-nav>li>a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
+
+.bg-footer {
+  background-color: #0b1320;
+  padding: 50px 0 30px;
+  /* margin-top: -40px; */
+}
+
+.footer-heading {
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.4;
+  font-weight: 500;
+
+  padding-bottom: 2px;
+}
+
+.footer_focus_style {
+  background-color: #ed8900;
+  padding: 4px 7px;
+  border-radius: 3px;
+}
+
+.cat_new_footer_flag.india_flag {
+  background-position: -36.1px -6px;
+}
+
+.cat_new_footer_flag {
+  width: 28px;
+  height: 20px;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  background: url(https://www.wizbrand.com/assets/images/footer_all_icon.png);
+  background-size: 117px;
+}
+
+.cat_new_footer_flag.us_flag {
+  background-position: -6px -28px;
+}
+
+.cat_new_footer_flag.gcc_flag {
+  background-position: -6px -6px;
+}
+
+.cat_new_footer_flag.uk_flag {
+  background-position: -3px 19px;
+}
+
+.footer-link a {
+
+  line-height: 30px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer-link a:hover {
+  color: #fff;
+}
+
+.contact-info {
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer-social-icon {
+  font-size: 15px;
+  height: 34px;
+  width: 34px;
+  line-height: 34px;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+}
+
+.fa1 {
+  color: white;
+  font-size: 425px;
+}
+
+.footer-alt {
+  color: #acacac;
+}
+
+.text-justify {
+  font-family: cursive;
+  font-size: 20px;
+  color: black
+}

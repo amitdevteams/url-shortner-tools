@@ -15,20 +15,7 @@
 <footer class="section bg-footer">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3">
-                <div class="">
-                    <h6 class=" footer-heading text-uppercase text-white"
-                        style="border-bottom: 1px solid; width: 120px;">
-                        Register&nbsp;Here
-                    </h6>
-                    <ul class="list-unstyled footer-link mt-4">
-                        <li>
-                            <badge class="badge footer_focus_style"><a href="https://www.wizbrand.com/register"
-                                    target="_blank">Register</a></badge>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+           
             <div class="col-lg-3">
                 <div class="">
                     <h6 class=" footer-heading text-uppercase text-white"
@@ -37,28 +24,199 @@
                     </h6>
                     <ul class="list-unstyled footer-link mt-2">
                         <li>
-                            <a href="">Google Analytics</a>
+                            <a href="https://www.wizbrand.com/tools/backlink-checker/">Backlink Checker</a>
                         </li>
                         <li>
-                            <a href="">Backlink Checker</a>
+                            <a href="https://www.wizbrand.com/tools/plagiarism-checker/">Plagiarism Checker</a>
                         </li>
                         <li>
-                            <a href="">Page Speed Test</a>
+                            <a href="https://www.wizbrand.com/tools/site-readability/">Website Readability Score</a>
                         </li>
                         <li>
-                            <a href="">Website Hit Counter</a>
+                            <a href="https://www.wizbrand.com/tools/checkRobotText">Robots Text Checker</a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">Adsense Calculator</a>
+                            <a href="https://www.wizbrand.com/tools/webPageSizeChecker">Webpage Size Checker</a>
                         </li>
-
                         <li>
-                            <a href="#" target="_blank">Ads Keyword Planner</a>
+                            <a href="https://www.wizbrand.com/tools/adsense-calculator/">Adsense Calculator</a>
+                        </li>
+                        
+                            <a href="https://www.wizbrand.com/tools/webPageSizeChecker" target="_blank">Web-Page Size Checker</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/seo-panel/">SEO Panel</a>
+                        </li>
+                        <li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/" target="_blank">Show More</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-2">
+
+            <div class="col-lg-3">
+                <div class="">
+                <h6 class=" footer-heading text-uppercase text-white"
+                        style="border-bottom: 1px solid; width: 111px;">
+                        Social Tools:
+                    </h6>
+                                        
+                    <ul class="list-unstyled footer-link mt-2">
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/youtube-video-downloader/">Youtube Video Downloader</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/instagram-reel-downloader/">Instagram Reel Downloader</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/twitter">Twitter Followers Count</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/linkedIn">LinkedinLogo Generator</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/youtube">Subscriber Count</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/reddit">Reddit</a>
+                        </li>
+                       
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/tumbler">Tumbler</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/pinterest" target="_blank">Pinterest </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/" target="_blank">Show More</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="">
+                    <h6 class=" footer-heading text-uppercase text-white"
+                        style="border-bottom: 1px solid; width: 111px;">
+                        PDF Tools:
+                    </h6>
+                   
+                    <ul class="list-unstyled footer-link mt-2">
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/word-to-pdf">Word to PDF Converter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/excel-to-pdf">Excel to PDF Converter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/pdf-to-excel/">Pdf To Excel Converter</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/jpg-to-pdf">Image to PDF Converter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/pdftojpg/">PDF to JPG Converter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/pdf-compress/">PDF Compress</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/merge-pdf/">Merge PDF</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/rotate-pdf/">Rotate PDF</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/" target="_blank">Show More</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="ml-5">
+                    <h6 class=" footer-heading text-uppercase text-white"
+                        style="border-bottom: 1px solid; width: 111px;">
+                        Image Tools:
+                    </h6>
+                    <ul class="list-unstyled footer-link mt-2">
+                       <li>
+                            <a href="https://www.wizbrand.com/tools/bulkImageCompression">Bulk Image Compression</a>
+                        </li>  
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/banner-generator/">Banner Generator tools</a>
+                        </li>  
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/imageSizeReducer">Image Size Reducer</a>
+                        </li>
+                      <li>
+                            <a href="https://www.wizbrand.com/tools/text-to-image/">Word to Banner</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/png-to-jpg">PNG to Jpg</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/img_cropper">Image Cropper</a>
+                        </li>
+
+                         <li>
+                            <a href="https://www.wizbrand.com/tools/photoeditor/">Photo Editor</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/jpg-to-png" target="_blank">Jpg to PNG</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/" target="_blank">Show More</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="">
+                    <h6 class=" footer-heading text-uppercase text-white"
+                        style="border-bottom: 1px solid; width: 111px;">
+                        Text Processing Tools:
+                    </h6>
+                    <ul class="list-unstyled footer-link mt-2">
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/synoymReplacer">Text Synonym Replacer</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/text-upper-lower-space-hypen-online">Text Converter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/spellCheck">Spell Checker</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/webPageSizeChecker">Web-Page Size Checker</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/checkUrlCompression">URL Compression</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/word-counter">Word Counter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/sitemap-generators/">Site Map Generator</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/checkRobotText" target="_blank">Robots Text Checker</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.wizbrand.com/tools/" target="_blank">Show More</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
                 <div class="">
                     <h6 class=" footer-heading text-uppercase text-white"
                         style="border-bottom: 1px solid; width: 160px;">
@@ -66,7 +224,7 @@
                     </h6>
                     <ul class="list-unstyled footer-link mt-2">
                         <li>
-                            <a href="https://www.cotocus.com/about/">About Us</a>
+                            <a href="https://www.cotocus.com/about/" target="_blank">About Us</a>
                         </li>
                         <li>
                             <a href="https://www.wizbrand.com/tutorials/">Blog</a>
@@ -76,7 +234,7 @@
                             <a href="https://www.wizbrand.com/gallery">Gallery</a>
                         </li>
                         <li>
-                            <a href="https://www.wizbrand.com/api/service">Services</a>
+                            <a href="https://www.wizbrand.com/services">Services</a>
                         </li>
                         <li>
                             <a href="https://www.wizbrand.com/contact-us">Contact us</a>
@@ -85,7 +243,7 @@
                             <a href="https://www.wizbrand.com/orgslist">Organization</a>
                         </li>
                         <li>
-                            <a href="https://github.com/wizbrand-support/support/issues">Support</a>
+                            <a href="">Support</a>
                         </li>
                         <li>
                             <a href="https://www.wizbrand.com/privacy-policy">Privacy Policy</a>
@@ -108,10 +266,27 @@
                                 <div class="cat_new_footer_flag uk_flag" title="uk_flag" alt="uk_flag"></div>
                             </a>
                         </div>
+                        
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4">
+
+            <div class="col-lg-3">
+                <div class="">
+                    <h6 class=" footer-heading text-uppercase text-white"
+                        style="border-bottom: 1px solid; width: 120px;">
+                        Register&nbsp;Here
+                    </h6>
+                    <ul class="list-unstyled footer-link mt-4">
+                        <li>
+                            <badge class="badge footer_focus_style"><a href="https://www.wizbrand.com/register"
+                                    target="_blank">Register</a></badge>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
                 <div class="ml-5">
                     <h6 class="footer-heading text-uppercase text-white"
                         style="border-bottom: 1px solid; width: 211px;">
@@ -131,7 +306,7 @@
                     <ul class="list-inline">
                             <li class="list-inline-item">
                                 <a href="https://www.facebook.com/wizbrandOffer" target="_blank">
-                                    <i class="fa fa-facebook-square" style="color: #3b5998; font-size: 26px;"
+                                    <i class="fa fa-facebook-square" style="color: red; font-size: 26px;"
                                         aria-hidden="true"></i>
                                     </i>
                                 </a>
@@ -177,9 +352,11 @@
         <div class="col-lg-12">
             <div class="copyright_footer">
                 <p class="text-center text-white mt-2">
-                Copyright © 2023 WizBrand All Rights Reserved
+                Copyright © 2022 WizBrand All Rights Reserved
                 </p>
             </div>
         </div>
     </div>
 </div>
+
+  <!-- Footer End -->
